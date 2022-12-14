@@ -22,6 +22,11 @@ html {
     margin-left: auto;
     margin-right: auto;
   }
+  @media (max-width:370px){
+    body{
+      width: 370px;
+    }
+  }
   /* Small */
   @media (min-width: 768px) {
     .container {
